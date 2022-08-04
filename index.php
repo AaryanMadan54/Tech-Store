@@ -54,7 +54,7 @@ $featured = $con->query($sql);
        <div class = "col-md-3">
         <h4> <?= $product['title'];?></h4>
         <img src = "<?=$product['image'];?>" alt = "<?= $product['title'];?>"/>
-        <p class = "lprice">$ <?= $product['price'];?></p>
+        <p style="font-size:130%;" class = "lprice">  <strong> $ <?= $product['price'];?> </strong> </p>
         <a href="details.php">
           <button type="button" class = "btn btn-success" data-toggle = "modal" data-target = "#details-1">More</button>
         </a>
